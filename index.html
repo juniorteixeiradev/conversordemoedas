@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convesor de moedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="container">
+    <div id="title"><h1>Conversor de moedas</h1>
+    </div>
+    <div id="subtitle"><h2>Converta em tempo real, USD -> BRL ou vice e versa</h2></div>
+    <div id="box">
+        <div id="moeda1">
+            <span id="titulomoeda1" class="titulobox">Quantidade</span>
+            <div id="conteudomoeda1">
+                <object id="brasil" class="countrys" type="image/svg+xml" data="assets/brazil-svgrepo-com.svg"></object>
+                <span id="nomedamoeda" class="nomedamoeda">BRL</span>
+                <input name="moeda1" id="inputmoeda1" class="inputsmoedas"/>
+            </div>
+        </div>
+        <div id="separador"></div>
+        <div id="moeda2">
+            <span id="titulomoeda1" class="titulobox">Quantidade</span>
+            <div id="conteudomoeda1">
+                <object id="eua" class="countrys" type="image/svg+xml" data="assets/united-states-of-america-svgrepo-com.svg"></object>
+                <span id="nomedamoeda" class="nomedamoeda">USD</span>
+                <input name="moeda1" id="inputmoeda2" class="inputsmoedas"/>
+            </div>
+            </div>
+        </div>
+        <div id="cotacao">
+            <span id="titulomoeda1" class="titulobox">Cotação usada:</span>
+            <span id="textcotacao">1 USD = 5.05 R$</span>
+        </div>
+        <footer class="titulobox">Desenvolvido por Jún1or Te1xe1ra.</footer>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

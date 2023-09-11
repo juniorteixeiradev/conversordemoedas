@@ -1,0 +1,163 @@
+* {
+    margin: 0 ;
+}
+
+body {
+    display: flex;
+    background: rgb(234,234,254);
+    background-size: cover;
+    background: radial-gradient(163deg, rgba(234,234,254,1) 10%, rgba(221,246,243,0) 100%);
+}
+
+#container {
+    margin-top:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#title h1{
+    display: flex;
+    color: #1F2261;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+#subtitle h2{
+    display: flex;
+    color: #808080;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 21px;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0 30px 20px;
+    max-width: 320px;
+    height:auto;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 320px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+#titulomoeda1{
+    display: flex;
+    align-items: initial;
+    
+}
+#conteudomoeda1{
+    display: flex;
+    flex-direction: row;
+}
+.titulobox {
+    color: #989898;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.countrys{
+    display: flex;
+    align-items: initial;
+    width: 45px;
+    height: 45px;
+    padding: 14px 0 37px 0;
+}
+
+.nomedamoeda{
+    color: #26278D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateY(-12%);
+    padding: 0 0 0 13px;
+}
+
+#inputmoeda1{
+
+    display: flex;
+    align-items: center;
+    margin: 14px 20px 0 42px;
+    color: #3C3C3C;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#inputmoeda2{
+
+    display: flex;
+    align-items: center;
+    margin: 14px 20px 0 42px;
+    color: #3C3C3C;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.inputsmoedas{
+
+    border: 0px;
+    width: 141px;
+    height: 45px;
+    border-radius: 7px;
+    background: #EFEFEF;
+}
+
+#separador{
+    width: 280px;
+    height: 1px;
+    background-color: #E7E7EE;
+    display: flex;
+    flex-direction: center;
+    margin-bottom: 37px;
+}
+#conteudodamoeda2{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+
+#nomedamoeda2{
+    display: flex;
+    align-items: in
+}
+
+#cotacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0 0;
+    
+    
+
+}
+#textcotacao{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
