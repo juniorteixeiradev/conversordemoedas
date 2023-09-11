@@ -3,6 +3,8 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     display: flex;
     background: rgb(234,234,254);
     background-size: cover;
@@ -40,13 +42,14 @@ body {
 }
 #box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
     width: 100%;
-    padding: 20px 0 30px 20px;
-    max-width: 320px;
+    padding: 20px 0 0px 20px;
+    max-width: 650px;
     height:auto;
     border-radius: 20px 20px 20px 20px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 }
@@ -125,14 +128,25 @@ body {
     background: #EFEFEF;
 }
 
-#separador{
+
+/*#separador{
     width: 280px;
     height: 1px;
     background-color: #E7E7EE;
     display: flex;
     flex-direction: center;
-    margin-bottom: 37px;
+    margin: 18px 0 0 0 ;
+}*/
+
+#separador{
+    width: 500px;
+    height: 1px;
+    background-color: #E7E7EE;
+    display: flex;
+    margin-top: 50px;
+    transform: rotate(90deg);
 }
+
 #conteudodamoeda2{
     display: flex;
     flex: row;
@@ -160,4 +174,25 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+@media(max-width:650px) {
+    #box{
+        flex-direction: column;
+        max-width: 300px;
+        padding: 20px 0 0px 20px;
+    }
+    
+    #moeda2{
+        margin: 37px 0 0 0;
+    }
+    #separador{
+        width: 280px;
+        height: 1px;
+        background-color: #E7E7EE;
+        display: flex;
+        flex-direction: center;
+        margin: 0 0 0 0;
+        transform: rotate(0deg);
+
+    }
 }
